@@ -33,6 +33,10 @@ spec:
         dapr.io/enabled: "true"
         dapr.io/id: "nodeapp"
         dapr.io/port: "3000"
+        dapr.io/log-as-json: "true"
+        prometheus.io/scrape: "true"
+        prometheus.io/path: "/"
+        prometheus.io/port: "9090"
     spec:
       containers:
       - name: node
