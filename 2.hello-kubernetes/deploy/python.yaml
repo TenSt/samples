@@ -23,4 +23,4 @@ spec:
     spec:
       containers:
       - name: python
-        image: dapriosamples/hello-k8s-python:edge
+        image: youngp/hello-k8s-python:sam1
